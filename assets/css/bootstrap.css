@@ -5732,11 +5732,19 @@ button.close {
 @media (max-width: 767px) {
   .hidden-xs {
     display: none !important;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
     display: none !important;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {

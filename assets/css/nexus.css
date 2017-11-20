@@ -1041,6 +1041,9 @@ p.site-slogan {
 .slicknav_menu {
   background: #474f5b;
   padding: 5px;
+  position: fixed;
+  z-index: 111;
+  width: -webkit-fill-available;
 }
 .slicknav_nav {
   color: #fff;
