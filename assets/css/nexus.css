@@ -1,6 +1,4 @@
 /**
-* @template:  Boss
-
 TABLE OF CONTENTS
 
 	- Basic
@@ -2886,4 +2884,17 @@ ul.posts-list li {
   line-height: 40px;
   min-height: 40px;
   text-align: center;
+}
+
+/*Personal CSS*/
+#box {
+  width: min-content;
+  margin: inherit;
+}
+#map {
+  width: 997.59px;
+  text-align: -webkit-center;
+}
+.yo, .tu{
+  margin: auto;
 }
